@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Snild Arkitekter</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      color: #222;
+    }
+    header {
+      background: #111;
+      color: #fff;
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    section {
+      padding: 3rem 1.5rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .intro {
+      text-align: center;
+    }
+    .intro p {
+      max-width: 700px;
+      margin: 1rem auto 0;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    .card {
+      background: #f4f4f4;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    .image {
+      height: 180px;
+      background-size: cover;
+      background-position: center;
+    }
+    .img1 { background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c'); }
+    .img2 { background-image: url('https://images.unsplash.com/photo-1501183638710-841dd1904471'); }
+    .img3 { background-image: url('https://images.unsplash.com/photo-1568605114967-8130f3a36994'); }
+    .card p {
+      padding: 1rem;
+      margin: 0;
+    }
+    footer {
+      background: #111;
+      color: #fff;
+      padding: 2rem 1.5rem;
+      margin-top: 3rem;
+    }
+    footer div {
+      max-width: 1100px;
+      margin: auto;
+    }
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="logo.png" alt="Snild Arkitekter logo" style="max-width:220px;margin-bottom:1rem;" />
+  <h1>Snild Arkitekter</h1>
+  <p>Funktionel og æstetisk arkitektur</p>
+</header>
+
+<section class="intro">
+  <h2>Om os</h2>
+  <p>
+    Snild Arkitekter er et dansk arkitektfirma med fokus på moderne,
+    bæredygtige og gennemtænkte løsninger. Vi arbejder med både private
+    og erhverv og skaber arkitektur, der kombinerer funktionalitet,
+    æstetik og høj kvalitet.
+  </p>
+</section>
+
+<section>
+  <h2>Udvalgte projekter</h2>
+  <div class="grid">
+    <div class="card">
+      <div class="image img1"></div>
+      <p>Moderne enfamiliehus med fokus på lys og rum.</p>
+    </div>
+    <div class="card">
+      <div class="image img2"></div>
+      <p>Minimalistisk villa i samspil med naturen.</p>
+    </div>
+    <div class="card">
+      <div class="image img1"></div>
+      <p>Renovering og tilbygning med respekt for eksisterende arkitektur.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div>
+    <h2>Kontakt</h2>
+    <p>
+      Telefon: <br />
+      42 21 13 65<br />
+      60 15 61 26
+    </p>
+    <p>
+      Email: <a href="mailto:Kontakt@snild.dk">Kontakt@snild.dk</a>
+    </p>
+    <p>
+      CVR: 456782469
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>
